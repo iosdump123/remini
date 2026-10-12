@@ -1,0 +1,9 @@
+Package: com.re.reminipro
+Name: ReminiPro
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: Local UI-gate hooks for Remini (save paywall / settings PRO card). Cloud AI/credits NOT unlocked.
+Maintainer: re
+Author: re
+Section: Tweaks
+Depends: ellekit
