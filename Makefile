@@ -1,4 +1,4 @@
-TARGET := iphone:clang:latest:15.0
+TARGET := iphone:clang:latest:14.0
 ARCHS = arm64 arm64e
 # 越狱默认用 ellekit/theos; TrollStore 走静态注入见 README
 INSTALL_TARGET_PROCESSES = Remini
