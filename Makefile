@@ -8,7 +8,6 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = ReminiPro
 ReminiPro_FILES = Tweak.x
 ReminiPro_CFLAGS = -fobjc-arc -Wno-unused-function
-# ellekit 提供 MSHookFunction; 若用 Substrate 改 -lsubstrate
-ReminiPro_LIBRARIES = ellekit
+
 
 include $(THEOS)/makefiles/tweak.mk
