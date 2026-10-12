@@ -10,9 +10,7 @@
 #import <Foundation/Foundation.h>
 #import <dlfcn.h>
 #import <mach-o/dyld.h>
-
-// ---- ellekit / Substrate 提供的函数 hook API ----
-extern "C" void MSHookFunction(void *symbol, void *replace, void **result);
+#import <substrate.h>
 
 // ====== 需按本机 dump 核对的偏移 (base 0x100000000) ======
 // 这些是「返回 Bool」的属性 getter 入口。锚点来自 __swift5_fieldmd + 调用点簇,
